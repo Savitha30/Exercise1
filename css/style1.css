@@ -1,0 +1,123 @@
+/*Starting of style for the index page */
+body{
+	background-image:url(../image/hhh.jpg);
+
+background-repeat:no-repeat;
+background-size:3000px;
+
+}
+/* Style for header section*/
+header{
+    position:fixed;
+    z-index:1;
+	background-image:url(../image/hhh1.jpg);
+	height:150px;
+	width:100%;
+	color:white;
+	display:inline-block;
+}
+.logo{
+	float:left;
+}
+.heading{
+	height:100px;
+	
+	font-size:30px;
+	text-align:center;
+}
+.first{
+    font-family: 'Amita';
+}
+.content{
+	position: relative;
+	padding:40px;
+	font-size: 25px;
+	padding-top:0px;
+	float:left;
+	display:inline-block;
+
+}
+.content .home{
+	text-decoration:none;
+	font-family:'Berkshire Swash';
+}
+.home a{
+	position: relative;
+	padding:25px;
+	font-size: 25px;
+	padding-top:0px;
+	float:left;
+	display:inline-block;
+	color:white;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 150px;
+   // box-shadow: 0px 8px 8px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+	font-size: 20px;
+	text-decoration: none;
+}
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.content:hover .dropdown-content {
+    display: block;
+}
+
+.content:hover {
+    background-color: grey;
+}
+/*Style for heroic image */
+.item{
+width: 860px;
+height:370px;
+}
+.img{
+width: 875px;
+height:583px;
+}
+/*Style for third row */
+	.second{
+	width:300px;
+}
+.third{
+    padding:5px;
+	color:white;
+	font-size:16px;
+}
+.fourth{
+	width:300px;
+	height:280px;
+}
+p{
+	font-size:16px;
+	color:white;
+}
+.design{
+    font-family:Lobster;
+}
+/*Style for footer section */
+.foot{
+	height:100px;
+	background-color:#CCCACF;
+	text-align:center;
+	font-family: 'Dancing Script', cursive;
+	font-size:18px;
+}
+footer{
+	
+	background-color:#CCCACF;
+
+	margin-top:10px;
+	text-align:center;
+	
+}
